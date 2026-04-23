@@ -1,11 +1,11 @@
-import TicTac from './TicTac.jsx'
+import TicTacToe from './TicTacToe.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <TicTac />
+      <TicTacToe />
     </>
   )
 }

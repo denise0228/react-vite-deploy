@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from 'react'
 import circle_icon from './assets/green_circle.png'
 import cross_icon from './assets/cross.png'
 
-function TicTac() {
+function TicTacToe() {
     const [board, setBoard] = useState(Array(9).fill(""));
     const [count, setCount] = useState(0);
     const [player1, setPlayer1] = useState("");
@@ -233,4 +233,4 @@ function TicTac() {
     );
 }
 
-export default TicTac
+export default TicTacToe
